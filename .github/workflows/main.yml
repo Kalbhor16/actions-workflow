@@ -1,0 +1,13 @@
+name: Student jobs
+
+on: 
+  push:
+    branches: [main]
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greething
+        run: echo "Hello from Apun" 
+    
+  
